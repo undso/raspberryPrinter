@@ -17,3 +17,13 @@ sudo apt install printer-driver-gutenprint
 https://_hostname_:631
 ### Quelle
 https://www.elektronik-kompendium.de/sites/raspberry-pi/2007081.htm
+
+## Mail 2 Print
+Mit einem Python Tool werden neue Mails abgerufen und der Anhang anschließend gedruckt.
+### Installation
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+sudo pip3 install imbox
+sudo pip3 install jinja2
+```
